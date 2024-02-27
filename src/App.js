@@ -5,21 +5,21 @@ import { taskContext } from './taskContext';
 
 const App = ()=>{
   const [taskItem,setTaskItem]=useState([
-    // {
-    //   id:1,
-    //   title:"کار شماره 1",
-    //   done:false
-    // },
-    // {
-    //   id:2,
-    //   title:"کار شماره 3",
-    //   done:true
-    // },
-    // {
-    //   id:5,
-    //   title:"کار شماره 5",
-    //   done:false
-    // }
+    {
+      id:1,
+      title:"کار شماره 1",
+      done:false
+    },
+    {
+      id:2,
+      title:"کار شماره 3",
+      done:true
+    },
+    {
+      id:5,
+      title:"کار شماره 5",
+      done:false
+    }
 
   ])
     return (
