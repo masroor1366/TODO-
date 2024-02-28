@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext,memo } from 'react';
 import { taskContext } from './taskContext';
 
 
@@ -55,4 +55,4 @@ const TaskItems = ()=>{
             }
 }
 
-export default TaskItems;
+export default memo(TaskItems);// pure component در react
